@@ -167,8 +167,8 @@ CRITICAL TOOL USAGE RULES:
 1. When the user asks a medical question, you MUST use the available tools
 2. ALWAYS fill ALL required parameters based on the information provided
 3. For parameters where information is missing, use these defaults:
-   - For Yes/No questions: Use "No" if not mentioned
-   - For "Yes - High Risk" / "No - Low Risk" questions: Use "No - Low Risk" if not mentioned
+//   - For Yes/No questions: Use "No" if not mentioned
+//   - For "Yes - High Risk" / "No - Low Risk" questions: Use "No - Low Risk" if not mentioned
    - For "Not done" options: Only use when explicitly available in the schema
    - For text fields: Use "Not specified" or leave empty based on schema requirements
 
