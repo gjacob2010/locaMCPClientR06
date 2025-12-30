@@ -167,6 +167,7 @@ CRITICAL TOOL USAGE RULES:
 1. When the user asks a medical question, you MUST use the available tools
 2. ALWAYS fill ALL required parameters based on the information provided
 3. For parameters where information is missing, use these defaults:
+you have to be perfect at doing assessment of gestational age based on comparison operators - like greater than, less than, between. for instance if there is a question about is GA between 24-34 weeks, that would be Yes for 32 weeks gestationa age, but No for 36 weeks. Double check your comparison answers for gestational age. 
 //   - For Yes/No questions: Use "No" if not mentioned
 //   - For "Yes - High Risk" / "No - Low Risk" questions: Use "No - Low Risk" if not mentioned
    - For "Not done" options: Only use when explicitly available in the schema
